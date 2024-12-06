@@ -3,15 +3,22 @@
 }
 .chat{  
     height: 800px;
+    
 }
 body{
     background-color: gray;
 }
 .input{
     background-color: rgb(173, 123, 5);
-    border: none;
+    border: none;       
     &:focus{
         background-color: rgb(173, 123, 5);
     }
-
+    
+  
 }
+.chatbox{
+    margin-top: 100%;
+    padding-top: 20%;
+}
+
